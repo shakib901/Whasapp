@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>পিংকি ভাবীর ডিজিটাল জগৎ</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Noto Sans Bengali',sans-serif;
+background:#f0f2f5;
+display:flex;
+justify-content:center;
+}
+
+.container{
+width:100%;
+max-width:420px;
+background:#fff;
+min-height:100vh;
+position:relative;
+}
+
+/* HEADER */
+.header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px;
+border-bottom:1px solid #eee;
+position:relative;
+}
+
+.header i{
+font-size:20px;
+color:#54656f;
+}
+
+.header-center{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+align-items:center;
+gap:6px;
+}
+
+.header-center span{
+font-weight:700;
+font-size:20px;
+color:#25D366;
+}
+
+.header-center i{
+color:#25D366;
+font-size:22px;
+}
+
+/* PROFILE */
+.profile{
+text-align:center;
+padding:30px 20px 10px;
+}
+
+.profile img{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.name{
+font-size:22px;
+font-weight:700;
+margin-top:15px;
+color:#111b21;
+}
+
+.follow{
+color:#54656f;
+margin-top:5px;
+font-size:16px;
+}
+
+/* DESCRIPTION */
+.desc{
+margin-top:20px;
+font-size:15px;
+line-height:1.7;
+color:#111b21;
+padding:0 20px;
+text-align:center;
+}
+
+.desc a{
+color:#0b6e4f;
+text-decoration:none;
+font-weight:600;
+word-break:break-word;
+}
+
+.desc a:hover{
+text-decoration:underline;
+}
+
+/* BUTTON */
+.btn-wrap{
+padding:30px 20px;
+}
+
+
+
+.main-btn{
+background:#128C7F;
+color:#fff;
+width:100%;
+padding:15px;
+border-radius:30px;
+font-size:18px;
+font-weight:700;
+text-align:center;
+text-decoration:none;
+display:block;
+box-shadow:0 6px 20px rgba(18,140,127,0.4);
+animation:pulse 1.5s infinite;
+transition:0.3s ease;
+}
+
+/* Auto hover effect animation */
+@keyframes pulse{
+0%{
+    transform:scale(1);
+    background:#128C7F;
+}
+50%{
+    transform:scale(1.05);
+    background:#16a394;
+}
+100%{
+    transform:scale(1);
+    background:#128C7F;
+}
+}
+
+.main-btn:active{
+transform:scale(0.95);
+}
+
+.footer{
+text-align:center;
+color:#8696a0;
+font-size:14px;
+padding-bottom:25px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+<i class="fas fa-bars"></i>
+
+<div class="header-center">
+<i class="fab fa-whatsapp"></i>
+<span>WhatsApp</span>
+</div>
+
+<i class="fas fa-download"></i>
+</div>
+
+<!-- PROFILE -->
+<div class="profile">
+<img src="https://files.catbox.moe/v6fzmp.jpg" alt="Profile">
+<div class="name">পিংকি ভাবী গোপন জগৎ 🔥</div>
+<div class="follow">150k Follower</div>
+</div>
+
+<!-- DESCRIPTION -->
+<div class="desc">
+🔥 এখনকার সবচেয়ে আলোচিত ও ভাইরাল ভিডিওগুলো একসাথে – <br><br>
+
+⭐ হট সবাই দেখছে:<br>
+<a href="https://allvirallink.vercel.app/" target="_blank">
+https://allvirallink.vercel.app/
+</a><br><br>
+
+💥 ভাইরাল মুহূর্ত:<br>
+<a href="https://t-me.loveslife.biz/" target="_blank">
+https://t-me.loveslife.biz/
+</a><br><br>
+
+🚀 লেটেস্ট আপডেট:<br>
+<a href="https://allvirallink.vercel.app/" target="_blank">
+https://allvirallink.vercel.app/
+</a>
+</div>
+
+<!-- BUTTON -->
+<div class="btn-wrap">
+<a href="https://allvirallink.vercel.app/" target="_blank" class="main-btn">
+<i class="fab fa-whatsapp"></i> চ্যাট করুন
+</a>
+</div>
+
+<div class="footer">
+Don't have WhatsApp yet?
+</div>
+
+</div>
+
+</body>
+</html>
